@@ -23,17 +23,18 @@ class Ess extends React.Component {
                                 <p>Nous souhaitons rencontrer et partager avec toute personne ou organisme, peu importe son statut, 
                                     qui se reconnait dans les valeurs de l'économie sociale et solidaire et 
                                     qui souhaite mettre en oeuvre un projet autour de l'univers digital. </p>
-
-                                   <h3> Nous proposons </h3>
+                                <div className="Idees">
+                                <h3> Quelques une de nos Idées</h3>
 
                                 <p> Plusieurs projets s'appuyant sur les supports audio et vidéo sont dans nos cartons, en particulier : 
-                                    animations Stop Motion, création de podcasts, littérature numérique.</p>
-
-                                <p> Ca vous tente ? Vous êtes en phase ? Contactez-nous!</p>
-
-                                <h3> Et vous, quelles sont vos idées, vos attentes ? </h3>
+                                    Animations Stop Motion, création de podcasts audio, littérature numérique.</p>
+                                <p> Ca vous parle ? Vous voulez en savoir plus ? Ou tout simplement vosu avez d'autres idées 
+                                    de collaboration ?</p>
+                                <h3> Ecrivez nous ce qui vous motive !</h3>
+                                </div>
+                                <div className="talk">
                                 <Contact/>
-
+                                </div>
                             </div>
                                 
                                 
